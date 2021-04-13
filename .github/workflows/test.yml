@@ -11,7 +11,7 @@ on:
         required: false
 jobs:
   greetuser:
-  runs-on: ubuntu-latest
+    runs-on: ubuntu-latest
     steps:
     - run: |
         echo "Hi ${{ github.event.inputs.name }}!"
